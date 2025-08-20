@@ -7,6 +7,10 @@
 # Objetivo
   -  O que buscamos é amenizar a quantidade de usuários que caem em golpes cibernéticos através de mensagens de texto SMS, por isso desenvolvemos um analisador de mensagens capaz de identificar potenciais golpes virtuais em textos de mensagens, contribuindo para a segurança digital dos usuários.
 ---
+# Agente de IA
+  - Carinhosamente apelidado de ARME, é um agente que possui como técnica de aprendizado de máquina o aprendizado supervisionado, buscando rotular as mensagens recebidas pelos usuários, ele receberá previamente uma base de dados e com testes e aperfeiçoamentos conseguirá informar se uma mensagem é inofensiva ou não.
+  - O algoritmo que será utilizado é o de regressão logística
+---
 # Tecnologias
   - Utilizaremos:
     - Como linguagem de programação: Python
