@@ -9,7 +9,7 @@
 ---
 # Agente de IA
   - Carinhosamente apelidado de ARME, é um agente que possui como técnica de aprendizado de máquina o aprendizado supervisionado, buscando rotular as mensagens recebidas pelos usuários, ele receberá previamente uma base de dados e com testes e aperfeiçoamentos conseguirá informar se uma mensagem é inofensiva ou não.
-  - O algoritmo que será utilizado é o de regressão logística
+  - O algoritmo que será utilizado é o de regressão logística, usada amplamente para identificar mensagens de spam.
 ---
 # Tecnologias
   - Utilizaremos:
