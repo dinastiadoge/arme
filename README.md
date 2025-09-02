@@ -18,7 +18,7 @@
 ---
 # Contribuintes
     Colocar os links para os perfis aqui
-  - ANA LETÍCIA DE SOUZA PEREIRA  
-  - FERNANDA MENDES MARQUES DE OLIVEIRA   
-  - JOÃO GABRIEL HOLANDA RIBEIRO   
-  - LUCAS SOARES DA SILVA LOPES 
+  - <a href="https://github.com/AnaSouzaPinheiro">ANA LETÍCIA DE SOUZA PINHEIRO</a>  
+  - FERNANDA MENDES MARQUES DE OLIVEIRA     
+  - LUCAS SOARES DA SILVA LOPES
+  - RAMONI SAMUEL HONÓRIO MUNIZ
