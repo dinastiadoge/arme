@@ -17,8 +17,7 @@
     - Como repositório, para armazenar os arquivos: Github
 ---
 # Contribuintes
-    Colocar os links para os perfis aqui
-  - ANA LETÍCIA DE SOUZA PEREIRA  
-  - FERNANDA MENDES MARQUES DE OLIVEIRA   
-  - JOÃO GABRIEL HOLANDA RIBEIRO   
-  - LUCAS SOARES DA SILVA LOPES 
+  - <a href="https://github.com/AnaSouzaPinheiro">ANA LETÍCIA DE SOUZA PINHEIRO</a>  
+  - <a href="https://github.com/Fefevsc"> FERNANDA MENDES MARQUES DE OLIVEIRA</a>     
+  - <a href="https://github.com/dinastiadoge"> LUCAS SOARES DA SILVA LOPES</a>
+  - <a href="https://github.com/ramonisDev"> RAMONI SAMUEL HONÓRIO MUNIZ</a>
