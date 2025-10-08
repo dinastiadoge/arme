@@ -5541,34 +5541,124 @@ spam	Want explicit SEX in 30 secs? Ring 02073162414 now! Costs 20p/min Gsex POBO
 ham	I can't believe how attached I am to seeing you every day. I know you will do the best you can to get to me babe. I will go to teach my class at your midnight
 ham	Just sleeping..and surfing
 spam	ASKED 3MOBILE IF 0870 CHATLINES INCLU IN FREE MINS. INDIA CUST SERVs SED YES. L8ER GOT MEGA BILL. 3 DONT GIV A SHIT. BAILIFF DUE IN DAYS. I O £250 3 WANT £800
-ham	Yeah it's jus rite...
-ham	Armand says get your ass over to epsilon
-ham	U still havent got urself a jacket ah?
-ham	I'm taking derek &amp; taylor to walmart, if I'm not back by the time you're done just leave the mouse on my desk and I'll text you when priscilla's ready
-ham	Hi its in durban are you still on this number
-ham	Ic. There are a lotta childporn cars then.
 spam	Had your contract mobile 11 Mnths? Latest Motorola, Nokia etc. all FREE! Double Mins & Text on Orange tariffs. TEXT YES for callback, no to remove from records.
-ham	No, I was trying it all weekend ;V
-ham	You know, wot people wear. T shirts, jumpers, hat, belt, is all we know. We r at Cribbs
-ham	Cool, what time you think you can get here?
-ham	Wen did you get so spiritual and deep. That's great
-ham	Have a safe trip to Nigeria. Wish you happiness and very soon company to share moments with
-ham	Hahaha..use your brain dear
-ham	Well keep in mind I've only got enough gas for one more round trip barring a sudden influx of cash
-ham	Yeh. Indians was nice. Tho it did kane me off a bit he he. We shud go out 4 a drink sometime soon. Mite hav 2 go 2 da works 4 a laugh soon. Love Pete x x
-ham	Yes i have. So that's why u texted. Pshew...missing you so much
-ham	No. I meant the calculation is the same. That  &lt;#&gt; units at  &lt;#&gt; . This school is really expensive. Have you started practicing your accent. Because its important. And have you decided if you are doing 4years of dental school or if you'll just do the nmde exam.
-ham	Sorry, I'll call later
-ham	if you aren't here in the next  &lt;#&gt;  hours imma flip my shit
-ham	Anything lor. Juz both of us lor.
-ham	Get me out of this dump heap. My mom decided to come to lowes. BORING.
-ham	Ok lor... Sony ericsson salesman... I ask shuhui then she say quite gd 2 use so i considering...
-ham	Ard 6 like dat lor.
-ham	Why don't you wait 'til at least wednesday to see if you get your .
-ham	Huh y lei...
 spam	REMINDER FROM O2: To get 2.50 pounds free call credit and details of great offers pls reply 2 this text with your valid name, house no and postcode
 spam	This is the 2nd time we have tried 2 contact u. U have won the £750 Pound prize. 2 claim is easy, call 087187272008 NOW1! Only 10p per minute. BT-national-rate.
-ham	Will ü b going to esplanade fr home?
-ham	Pity, * was in mood for that. So...any other suggestions?
-ham	The guy did some bitching but I acted like i'd be interested in buying something else next week and he gave it to us for free
-ham	Rofl. Its true to its name
+
+spam	Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's  
+spam	Win a brand new car! Text WINCAR to 88088 to enter. T&Cs apply. One entry per person. Std rates apply.  
+spam	Congratulations! You have been selected for a £1000 cash prize. Call 09061701461 before 23:59 to claim. T&C apply.  
+spam	Exclusive offer: 50% off luxury perfumes today only. Reply PERF to 80099 to receive your discount code. Std rates apply.  
+spam	Final reminder: Your subscription will renew unless you text STOP to 70077 now. Fees may apply.  
+spam	You have won a holiday to the Bahamas! Text HOLIDAY to 81234 to claim. Ts&Cs apply. Over 18s only.  
+spam	URGENT: Your account is suspended. Verify now at http://secure-verify.example.com or call 09061234567. Charges may apply.  
+spam	Congratulations! You have unlocked a free ringtone. Text RING to 83444 to download. Std message rates apply.  
+spam	Get a free trial of our online magazine. Text TRIAL to 85555 to sign up. Cancel anytime. Std rates apply.  
+spam	You are a winner! To claim your prize call 08712400200 quoting claim code 4729. Lines are premium rate.  
+spam	Flash sale: 3 for 2 on all vitamins. Text HEALTH to 90011 to order. Delivery charges may apply.  
+spam	Lottery win: Claim your winnings of $5,000 by calling 09050090000 with reference LTY123. Charges apply.  
+spam	Join our dating service today. Text SINGLE to 84422 for details. Msg&Data rates may apply. T&Cs apply.  
+spam	Free entry to win concert tickets. Text CONCERT to 81281 now. Winners announced Friday. Std rates apply.  
+spam	You've been shortlisted for a mystery shop. Reply YES to 80900 to get details. Participation limited.  
+spam	Win a shopping spree worth £500. Text SHOP to 87766 to enter. One entry per household. Std rates apply.  
+spam    Free smartphone offer for new customers. Text SMART to 84000 to check eligibility. Terms apply.  
+spam	Claim your free sample of skincare. Text SAMPLE to 87007. Standard message rates apply. T&C's apply.  
+spam	Your mobile warranty expires today. Renew now by texting RENEW to 89999. Charges may apply.  
+spam	Hot deal: 70% off on selected items. Reply DEAL to 85577 to receive voucher. Limited time only.  
+spam	You have won a cinema voucher. Text MOVIE to 82345 to claim. Std message rates apply.  
+spam	Confirm your prize by calling 09061749602 with the code WIN123 within 24 hours. Premium rates apply.  
+spam	Free entry in 2 a wkly comp to win festival passes. Text FEST to 87121 to receive entry question(std txt rate)T&C's apply.  
+spam	You've been selected for a cashback offer. Text CASH to 80022 to learn more. Terms apply. Std rates.  
+spam	Prize claim: Call 0906660188 before midnight quoting ref 5578 to collect your reward. Premium lines.  
+spam	Last chance: Reply STOP to opt out of our offers. Otherwise you will receive weekly messages. Std rates.  
+spam	Free pizza for a year for one lucky winner. Text PIZZA to 84567 to enter. T&Cs apply. Std rates.  
+spam	Exclusive access: VIP club invites only. Text VIP to 84488 for your invite. Limited seats. Std rates.  
+spam	You've won £250 in our daily draw. Call 09061701489 with code 250WIN to claim. Service charge applies.  
+spam	Act now: Low rate loans available. Text LOAN to 81212 for an instant callback. Credit subject to status.  
+spam	Free movie download available. Text FILM to 83333 to get your link. Standard message rates apply.  
+spam	Congrats! You could be the winner of a new TV. Text TVWIN to 87777 for entry. T&Cs apply.  
+spam	Claim free concert tickets by replying TIX to 86086. Winners picked weekly. Std rates apply.  
+spam	Your opinion matters. Complete a survey and receive a £10 voucher. Text SURVEY to 90909 to start. Msg rates apply.  
+spam	You have been pre-approved for a credit card. Text CARD to 81111 to apply. Terms and conditions apply.  
+spam	Win a designer handbag. Text BAG to 82020 to enter. T&Cs and delivery fees may apply. Std rates.  
+spam	Free health check coupon inside. Text HEALTH to 88000 to receive code. Limited availability. Std rates apply.  
+spam	Urgent: Confirm your delivery by replying CONFIRM to 84084. Failure to respond may result in return. Msg rates apply.  
+spam	Free gift card for new customers. Text GIFT to 86666 to claim. One per household. Std rates apply.  
+spam	Win cash every week! Text CASHWEEK to 81122 to enter the draw. T&Cs apply. Std rates.  
+spam	You have been selected for a prize draw. Text PRIZE to 87710 now to claim your free entry. Std rates.  
+spam	Claim your free ebook. Text BOOK to 83321 for download link. Std message rates apply.  
+spam	You are eligible for a refund. Call 09050080000 quoting REF987 to process. Premium rates apply.  
+spam	Free broadband upgrade offer. Text UPGRADE to 84400 to check if you qualify. Terms apply. Std rates.  
+spam	Win a £200 shopping voucher. Text VOUCHER to 89921 to enter. One entry per mobile. Std rates.  
+spam	You have a voicemail waiting. Call 09064019014 to listen. Premium call charges apply.  
+spam	Congratulations! You have been chosen for a cash prize. Text CASHPRIZE to 87500 to claim. Std rates apply.  
+spam	Free trial membership for a month. Text FREE to 82828 to register. Cancel any time. Std rates.  
+spam	Immediate response required: confirm your account by replying YES to 82080. Failure to reply may close account.  
+spam	Win a luxury spa weekend. Text SPA to 84455 to enter. T&Cs apply. Std rates.  
+spam	You have unlocked exclusive coupons. Text COUPON to 80045 to receive them. Limited time. Std rates apply.  
+spam	Claim free makeup sample now. Text BEAUTY to 83388. Standard rates apply. T&C's apply.  
+spam	Limited offer: text SAVE to 81190 to receive 30% off storewide. Valid while stocks last. Std rates apply.  
+spam	You could win a £500 grocery voucher. Text GROCER to 87788 to enter. T&Cs apply. Std rates.  
+spam	Free access to premium app for 7 days. Text APPFREE to 85555 to activate. Cancel before trial ends to avoid charges.  
+spam	Congratulations, you're a winner! Call 09061234521 to collect your prize. Premium charges may apply.  
+spam	Win a weekend break for two. Text WEEKEND to 84040 for entry. T&Cs apply. Std rates.  
+spam	Free fitness class pass. Text FITPASS to 82222 to claim. Limited spots. Std rates apply.  
+spam	You have won a voucher for electronics. Text TECH to 86555 to claim. T&Cs apply. Std rates.  
+spam	Alert: Suspicious activity on your account. Verify at http://secure-check.example.com or call 09061230099. Charges may apply.  
+spam	Free entry into prize draw when you reply ENTER to 83321. Winners contacted by phone. Std message rates apply.  
+spam	You have been selected for a mystery gift. Text GIFTME to 87701 to accept. One per person. Std rates.  
+spam	Win film passes tonight. Text CINEMA to 84455 to enter. T&Cs apply. Std rates.  
+spam	Last chance to claim your reward. Reply CLAIM to 80077 now. Offers end midnight. Std rates.  
+spam	Free cashback of £25 for new customers. Text CASH25 to 85500 to claim. Terms apply. Std rates.  
+spam	You've won a voucher for free coffee. Text COFFEE to 83333 to redeem. Std message rates apply.  
+spam	Free trial of our weight loss programme. Text SLIM to 89909 to join. Cancel anytime. Std rates apply.  
+spam	Exclusive prize draw: Reply YES to 87070 to enter. Limited entries. Standard rates apply.  
+spam	You have won a mobile phone top-up. Text TOPUP to 84444 to get codes. Std rates apply.  
+spam	Claim your free movie ticket. Text TICKET to 88888 for details. T&Cs apply. Std rates.  
+spam	Win £1000 cash instantly. Text CASH1000 to 81111 now. T&Cs apply. Std rates.  
+spam	Free delivery coupon inside. Text DELIVER to 82020 to receive voucher. Valid this week only. Std rates apply.  
+spam	Your broadband speed upgrade is ready. Text SPEED to 84400 to accept. Terms apply. Std rates.  
+spam	You have been selected for a credit check offer. Text CREDIT to 87777 to see if you qualify. Std rates.  
+spam	Free sample of vitamins for new signups. Text VIT to 85555 to receive. Limited supply. Std rates apply.  
+spam	You are eligible for a prize worth £300. Call 09061162199 quoting code 300PR to claim. Premium rate.  
+spam	Hot: buy one get one free on shoes. Text SHOES to 86666 to get voucher. Limited sizes. Std rates apply.  
+spam	Win concert meet and greet. Text MEET to 83324 to enter. Winners contacted by PM. Std rates.  
+spam	Flash prize: immediate £50 credit. Text CREDIT50 to 84455. T&Cs apply. Std rates.  
+spam	You have a tax rebate waiting. Call 09064174000 quoting TAXREF to claim. Premium charges may apply.  
+spam	Limited time: free streaming subscription. Text STREAM to 89900 to activate. Cancel within 7 days to avoid charges.  
+spam	Congratulations! You won a fashion voucher. Text STYLE to 87722 to redeem. Std message rates apply.  
+spam	Win exclusive backstage passes. Text BACKSTAGE to 83388 now. T&Cs apply. Std rates.  
+spam	You are selected for a medical trial. Text TRIAL to 81133 to register. Participant terms apply. Std rates.  
+spam	Free audiobook download. Text AUDIO to 84499 to get link. Std rates apply.  
+spam	You could win a new laptop. Text LAPTOP to 87700 for entry. T&Cs and delivery fees may apply. Std rates.  
+spam	Alert: Update your details to avoid service interruption. Reply UPDATE to 80088. Std rates apply.  
+spam	Win a designer watch. Text WATCH to 82202 to enter. One winner weekly. Std rates.  
+spam	You've been chosen for a supermarket voucher. Text MARKET to 83377 to claim. T&Cs apply. Std rates.  
+spam	Claim your free restaurant voucher. Text DINNER to 85533 to receive code. Limit one per person. Std rates.  
+spam	You have won a mystery prize. Call 09050090002 with code MPRIZE to claim. Premium charges apply.  
+spam	Free entry to our prize draw. Text DRAW to 81212 to register. Terms and conditions apply. Std rates.  
+spam	Congratulations, you're a winner of £200. Text WIN200 to 84444 to accept. Std message rates apply.  
+spam	Win a holiday voucher worth £750. Text HOLVOU to 87788 to enter. T&Cs apply. Std rates.  
+spam	Free skin care kit for the first 50 responders. Text SKIN to 83350 to claim. Std rates apply.  
+spam	You have been pre-selected for a free trial box. Text BOX to 82222 to receive. Cancel anytime. Std rates.  
+spam	Win tickets to the big game. Text GAME to 85555 to enter. Winners chosen Thursday. Std rates.  
+spam	Your mobile has won a prize. Text MOBILE to 80011 to claim. T&Cs apply. Std rates.  
+spam	Exclusive savings: Text SAVE30 to 84430 for 30% off your order. Valid online only. Std rates apply.  
+spam	You have a parcel waiting. Confirm delivery by texting PARCEL to 83300. Msg rates apply.  
+spam	Free entries into our daily raffle. Text RAFFLE to 87709 to join. Winners announced daily. Std rates apply.  
+spam	Win an iPad today. Text IPAD to 84455 for immediate entry. T&Cs apply. Std rates.  
+spam	Claim a free coffee voucher. Text JAVA to 82220 to receive code. One per customer. Std rates apply.  
+spam	You won a supermarket sweep. Call 09064019004 to claim prize. Premium rates apply.  
+spam	Free health supplement sample. Text SUPP to 83383 to receive. Limited supply. Std rates apply.  
+spam	You've been selected for a prize. Text SELECT to 80088 to accept. T&Cs apply. Std rates.  
+spam	Win a weekend away for two. Text AWAY to 85555 to enter. Winners chosen monthly. Std rates apply.  
+spam	Immediate action required: reply VERIFY to 82082 to confirm account ownership. Failure may lock account. Std rates.  
+spam	Free music downloads inside. Text MUSIC to 83322 for links. Std message rates apply.  
+spam	You have won an electronics voucher. Text E-VOUCH to 87777 to claim. T&Cs and delivery fees may apply. Std rates.  
+spam	Win cinema tickets and popcorn. Text POP to 84444 to enter. Winners announced weekly. Std rates apply.  
+spam	Congratulations, you've won a free gift. Reply FREEGIFT to 81100 to claim. One gift per household. Std rates apply.  
+spam	Exclusive trial: get premium coffee for free. Text COFF to 83399 to register. Limited time. Std rates apply.  
+spam	You are eligible for a £20 discount. Text DISC20 to 85520 to receive voucher. Valid this month only. Std rates.  
+spam	Win a year of free cinema. Text YEARFILM to 84499 to enter. T&Cs apply. Std rates.  
+spam	Final notice: confirm payment details by texting PAY to 80009 to avoid interruption. Std rates apply.  
+spam	You have been selected for a prize draw; reply ENTERME to 87701 to accept. Winners contacted by phone. Std rates apply.
