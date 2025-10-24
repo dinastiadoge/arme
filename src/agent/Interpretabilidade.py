@@ -1,4 +1,3 @@
-# Interpretabilidade.py
 import torch
 import numpy as np
 from transformers import BertTokenizer, BertForSequenceClassification
@@ -25,7 +24,7 @@ def destacar_tokens(texto):
     importance = (importance - importance.min()) / (importance.max() - importance.min() + 1e-8)
 
     # Visualização textual simples
-    print("\n📖 Texto analisado:\n")
+    print("\n Texto analisado:\n")
     for token, score in zip(tokens, importance):
         intensity = int(score * 255)
         print(f"\033[48;2;{255-intensity};{255-intensity};255m {token} \033[0m", end=" ")

@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Pastas de dados ou modelos pesados
+src/modelo_bert/
+*.pt
+*.bin

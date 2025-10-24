@@ -1,4 +1,3 @@
-# AnaliseEstatistica.py
 import torch
 import numpy as np
 from sklearn.model_selection import KFold
@@ -63,7 +62,7 @@ for batch_size in batch_sizes:
     for lr in learning_rates:
         for num_epochs in epochs:
             fold_accuracies, fold_f1s = [], []
-            print(f"\n🔍 Testando combinação: batch={batch_size}, lr={lr}, epochs={num_epochs}")
+            print(f"\n Testando combinação: batch={batch_size}, lr={lr}, epochs={num_epochs}")
 
             for fold, (train_idx, val_idx) in enumerate(kfold.split(dataset)):
                 print(f"\n--- Fold {fold+1}/{num_folds} ---")
