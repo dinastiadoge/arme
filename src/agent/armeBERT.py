@@ -7,9 +7,7 @@ from transformers import BertTokenizer, BertForSequenceClassification, get_sched
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 from tqdm import tqdm
 
-# ===============================
-# 1️⃣ Carregar e preparar o dataset
-# ===============================
+# Carregar e preparar o dataset
 # Ler o arquivo bruto linha por linha
 with open("src/base/dataset.txt", "r", encoding="utf-8") as f:
     linhas = f.readlines()
@@ -29,9 +27,7 @@ with open("src/base/dataset_limpo.txt", "w", encoding="utf-8") as f:
 df = pd.read_csv("src/base/dataset_limpo.txt", sep="\t", header=None, names=["label", "message"])
 df["label"] = df["label"].map({"ham": 0, "spam": 1})  # 0 = segura, 1 = suspeita
 
-# ===============================
-# 2️⃣ Limpeza leve dos textos
-# ===============================
+# Limpeza leve dos textos
 def limpar_texto(texto):
     texto = texto.lower()
     texto = re.sub(r"http\S+|www\S+", "", texto)
@@ -43,9 +39,7 @@ def limpar_texto(texto):
 df["message"] = df["message"].fillna("").astype(str) # Garantir que todas as mensagens sejam strings válidas
 df["message"] = df["message"].apply(limpar_texto)
 
-# ===============================
-# 3️⃣ Tokenização com BERT
-# ===============================
+# Tokenização com BERT
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 class SMSDataset(Dataset):
@@ -79,9 +73,7 @@ train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
 train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=16, shuffle=False)
 
-# ===============================
-# 4️⃣ Criar e configurar modelo BERT
-# ===============================
+# Criar e configurar modelo BERT
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)
 model.to(device)
@@ -91,9 +83,7 @@ num_epochs = 2
 num_training_steps = num_epochs * len(train_loader)
 lr_scheduler = get_scheduler("linear", optimizer=optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
 
-# ===============================
-# 5️⃣ Treinamento e avaliação
-# ===============================
+# Treinamento e avaliação
 for epoch in range(num_epochs):
     print(f"\n===== Época {epoch + 1}/{num_epochs} =====")
     model.train()
@@ -137,3 +127,10 @@ for epoch in range(num_epochs):
 
     print("\nRelatório detalhado:")
     print(classification_report(y_true, y_pred, target_names=["SEGURA", "SUSPEITA"], digits=4))
+
+
+# Salvar modelo e tokenizer
+model.save_pretrained("src/modelo_bert")
+tokenizer.save_pretrained("src/modelo_bert")
+
+print("\nModelo e tokenizer salvos em: src/modelo_bert")
