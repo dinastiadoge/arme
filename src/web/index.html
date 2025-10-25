@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Classificador de Mensagens com Destaque</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        height: 100%;
+      }
+
+      .box {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 35px;
+      }
+
+      #btnClassificar {
+        border: 1px solid #2657ff;
+        background-color: #2657ff;
+        color: #fff;
+      }
+
+      input,
+      button {
+        font-family: "Poppins", sans-serif;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+      #resultado {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      #destaque {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        background-color: #000000;
+        justify-content: center;
+        align-items: center;
+      }
+      .token {
+        padding: 2px 4px;
+        border-radius: 4px;
+        margin: 0 1px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Classificador de Mensagens com Destaque</h1>
+
+      <div class="frase">
+        <input
+          type="text"
+          id="mensagem"
+          placeholder="Digite sua mensagem aqui"
+          size="50"
+        />
+        <button id="btnClassificar">Classificar</button>
+      </div>
+
+      <div id="resultado"></div>
+      <div id="destaque"></div>
+    </div>
+
+    <script>
+      $("#btnClassificar").click(function () {
+        const msg = $("#mensagem").val();
+        if (!msg) {
+          alert("Digite uma mensagem!");
+          return;
+        }
+
+        $.ajax({
+          url: "http://127.0.0.1:5000/prever_destacar",
+          type: "POST",
+          contentType: "application/json",
+          data: JSON.stringify({ mensagem: msg }),
+          success: function (res) {
+            if (res.erro) {
+              $("#resultado").text("Erro: " + res.erro);
+              return;
+            }
+
+            let corClasse;
+            if (res.classe === "SEGURA") {
+              corClasse = "green";
+            } else {
+              corClasse = "red";
+            }
+
+            $("#resultado").text("Mensagem classificada como: " + res.classe);
+            $("#resultado").css("color", corClasse); // aplica a cor
+            $("#destaque").empty();
+
+            // Filtrar tokens especiais [CLS] e [SEP]
+            const tokensFiltrados = res.tokens.filter(
+              (t) => t.text !== "[CLS]" && t.text !== "[SEP]"
+            );
+
+            tokensFiltrados.forEach((token) => {
+              // Escalar score para reforçar contraste (usar raiz quadrada ou exponencial)
+              let intensidade = Math.sqrt(token.score); // ou Math.pow(token.score, 0.5)
+              intensidade = Math.min(Math.max(intensidade, 0.1), 1); // garantir mínimo visível
+
+              let color =
+                token.color === "red"
+                  ? `rgb(255, ${255 * (1 - intensidade)}, ${
+                      255 * (1 - intensidade)
+                    })`
+                  : `rgb(${255 * (1 - intensidade)}, 255, ${
+                      255 * (1 - intensidade)
+                    })`;
+
+              $("#destaque").append(
+                `<span class="token" style="background-color: ${color};">${token.text}</span>`
+              );
+            });
+          },
+          error: function (err) {
+            console.error(err);
+            $("#resultado").text("Erro ao classificar a mensagem.");
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
