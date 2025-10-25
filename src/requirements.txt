@@ -1,8 +1,22 @@
-torch
-transformers==4.35.0
+# para rodar em vm
+# python -m venv venv
+# venv\Scripts\activate
+# pip install -r requirements.txt
+
+# core
+numpy
 pandas
 scikit-learn
 tqdm
 matplotlib
+
+# NLP / transformers / deep learning
+transformers
+torch
+
+# utilities
+nltk
+
+# web / API
 flask
 flask-cors
