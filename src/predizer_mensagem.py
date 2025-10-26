@@ -2,7 +2,7 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
 # 1. Carregar modelo e tokenizer treinados
-modelo_path = r"D:\WazPC\Documents\Ana\modelo_bert"
+modelo_path = "src/modelo_bert"
 tokenizer = BertTokenizer.from_pretrained(modelo_path)
 model = BertForSequenceClassification.from_pretrained(modelo_path)
 model.eval()

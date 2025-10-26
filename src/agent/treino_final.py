@@ -11,7 +11,7 @@ from armeBERT import dataset  # seu dataset já processado, SMSDataset incluso
 
 # Configurações
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-modelo_path = r"D:\WazPC\Documents\Ana\modelo_bert"
+modelo_path = "src/modelo_bert"
 
 # Hiperparâmetros a testar
 batch_sizes = [8, 16]

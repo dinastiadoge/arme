@@ -60,11 +60,6 @@ dataset = SMSDataset(df["message"].tolist(), df["label"].tolist(), tokenizer)
 
 dataset.labels = dataset.labels.long()
 
-#with open("src/base/dataset.txt", "r", encoding="utf-8") as f:
- #   first_line = f.readline()
-  #  print(repr(first_line))
-
-
 # Dividir dataset em treino (80%) e teste (20%)
 train_size = int(0.8 * len(dataset))
 test_size = len(dataset) - train_size

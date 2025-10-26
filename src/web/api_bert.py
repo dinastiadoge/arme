@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Modelo salvo
-modelo_path = r"D:\WazPC\Documents\Ana\modelo_bert"
+modelo_path = "src/modelo_bert"
 tokenizer = BertTokenizer.from_pretrained(modelo_path)
 model = BertForSequenceClassification.from_pretrained(modelo_path, output_attentions=True)
 model.eval()
@@ -56,6 +56,8 @@ def prever_destacar():
                 token_list.append({"text": t, "score": float(-s), "color": "green"})
 
     return jsonify({"mensagem": texto, "classe": classe, "tokens": token_list})
+
+# Para utilizar com a extensão "Live Server" do VS Code, por exemplo
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True)

@@ -131,8 +131,8 @@
             );
 
             tokensFiltrados.forEach((token) => {
-              // Escalar score para reforçar contraste (usar raiz quadrada ou exponencial)
-              let intensidade = Math.sqrt(token.score); // ou Math.pow(token.score, 0.5)
+              // Escalar score para reforçar contraste 
+              let intensidade = Math.sqrt(token.score);
               intensidade = Math.min(Math.max(intensidade, 0.1), 1); // garantir mínimo visível
 
               let color =
